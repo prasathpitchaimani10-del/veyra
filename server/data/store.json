@@ -1,0 +1,246 @@
+{
+  "users": [
+    {
+      "_id": "user-001",
+      "name": "Arjun Mehta",
+      "email": "customer@veyra.store",
+      "phone": "+91 98765 43210",
+      "passwordHash": "$2b$10$US/W2o9kAwAmho.ADxQZfuZ.Sgk1chK1VaDd2MOCT.kEIYc1GLX1G",
+      "createdAt": "2026-09-23T10:09:29.167Z",
+      "role": "customer"
+    },
+    {
+      "_id": "user-1790417383363-81zxf0",
+      "name": "Rohit Sharma",
+      "email": "rohit@example.com",
+      "phone": "+91 9988776655",
+      "passwordHash": "$2b$10$GXXSZBq6k2DsfK0A6EBT7eS7feI17ARKYO089Fba5hz214lqJ2oyq",
+      "createdAt": "2026-09-26T10:09:43.363Z",
+      "role": "customer"
+    }
+  ],
+  "admins": [
+    {
+      "_id": "admin-001",
+      "name": "Veyra Operations Admin",
+      "email": "admin@veyra.store",
+      "passwordHash": "$2b$10$RE4ACDey21o3ClrxXgNAp.dYPX.bjf.s3A3Sknw6rE/3BKLFoJoY.",
+      "createdAt": "2026-09-26T10:09:29.167Z",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod-001",
+      "name": "Veyra Prime Smartphone",
+      "description": "Minimalist smartphone engineered with aerospace ceramic casing, 6.7-inch dynamic OLED display, and all-day intelligent battery optimization.",
+      "price": 19999,
+      "category": "Electronics",
+      "image": "/src/assets/images/prod_smartphone_1790416952525.jpg",
+      "quantity": 34,
+      "featured": true,
+      "specs": [
+        "6.7\" OLED 120Hz Display",
+        "256GB Storage / 8GB RAM",
+        "50MP Studio Sensor",
+        "5000mAh Battery"
+      ],
+      "createdAt": "2026-09-26T10:09:28.907Z"
+    },
+    {
+      "_id": "prod-002",
+      "name": "Veyra Studio Wireless Headphones",
+      "description": "Precision acoustic tuning with hybrid active noise cancellation, custom 40mm bio-cellulose drivers, and memory-foam ear cushions.",
+      "price": 1999,
+      "category": "Audio",
+      "image": "/src/assets/images/prod_headphones_1790416962990.jpg",
+      "quantity": 50,
+      "featured": true,
+      "specs": [
+        "Hybrid Active Noise Cancelling",
+        "40-Hour Battery Life",
+        "Multipoint Bluetooth 5.3",
+        "Comfort Memory Foam"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-003",
+      "name": "Veyra Ultra-Slim Laptop",
+      "description": "Crafted from solid unibody anodized aluminum. High-performance octa-core processing with silent vapor chamber cooling for creators.",
+      "price": 49999,
+      "category": "Computers",
+      "image": "/src/assets/images/prod_laptop_1790416974645.jpg",
+      "quantity": 20,
+      "featured": true,
+      "specs": [
+        "14-inch 2.8K Retina IPS",
+        "16GB LPDDR5 / 512GB NVMe SSD",
+        "18-Hour Battery Life",
+        "1.24 kg Ultralight"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-004",
+      "name": "Veyra Minimal Smart Watch",
+      "description": "Curved sapphire glass watch with continuous heart-rate tracking, oxygen saturation telemetry, and a breathable woven nylon strap.",
+      "price": 2999,
+      "category": "Wearables",
+      "image": "/src/assets/images/prod_smartwatch_1790416986056.jpg",
+      "quantity": 45,
+      "featured": true,
+      "specs": [
+        "Always-On AMOLED Display",
+        "Comprehensive Health Sensors",
+        "5 ATM Water Resistant",
+        "7-Day Battery Span"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-005",
+      "name": "Veyra Acoustic Pro Earbuds",
+      "description": "Pocket-sized ergonomic wireless earbuds featuring low-latency gaming transmission and quad-mic environmental noise dampening.",
+      "price": 3499,
+      "category": "Audio",
+      "image": "/src/assets/images/prod_earbuds_1790417019342.jpg",
+      "quantity": 60,
+      "featured": false,
+      "specs": [
+        "Ultra-Low Latency Mode",
+        "IPX5 Water Resistant",
+        "32 Hours Total Playback",
+        "Touch Gestures"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-006",
+      "name": "Veyra Low-Profile Mechanical Keyboard",
+      "description": "Anodized aluminum chassis featuring pre-lubricated tactile switches, PBT keycaps, and dual-mode Bluetooth + USB-C connectivity.",
+      "price": 5499,
+      "category": "Accessories",
+      "image": "/src/assets/images/prod_keyboard_1790417029998.jpg",
+      "quantity": 28,
+      "featured": false,
+      "specs": [
+        "Low-Profile Mechanical Switches",
+        "Solid Aluminum Frame",
+        "Custom PBT Double-Shot Caps",
+        "RGB Ambient Backlight"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-007",
+      "name": "Veyra Precision Aluminum Stand",
+      "description": "Elevated ergonomic laptop and tablet stand engineered to enhance airflow, posture, and clean desktop arrangement.",
+      "price": 1899,
+      "category": "Accessories",
+      "image": "/src/assets/images/prod_stand_1790417041853.jpg",
+      "quantity": 75,
+      "featured": false,
+      "specs": [
+        "Aircraft Grade Aluminum",
+        "Silicone Anti-Slip Padding",
+        "Foldable Compact Travel Design",
+        "Fits 11\" to 17\" Laptops"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    },
+    {
+      "_id": "prod-008",
+      "name": "Veyra Fast Wireless Charging Pad",
+      "description": "Textured graphite fabric pad with high-efficiency 15W Qi fast charging and automatic thermal management.",
+      "price": 1299,
+      "category": "Accessories",
+      "image": "/src/assets/images/prod_charger_1790417052334.jpg",
+      "quantity": 80,
+      "featured": false,
+      "specs": [
+        "15W Qi Fast Charge",
+        "Textured Slate Fabric Top",
+        "Foreign Object Detection",
+        "Braided USB-C Cable Included"
+      ],
+      "createdAt": "2026-09-26T10:09:28.908Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord-1790417389627-bsuhr",
+      "orderNumber": "VYR-855403",
+      "userId": "user-1790417383363-81zxf0",
+      "customerName": "Rohit Sharma",
+      "customerEmail": "rohit@example.com",
+      "customerPhone": "+91 9988776655",
+      "shippingAddress": {
+        "fullName": "Rohit Sharma",
+        "phoneNumber": "+91 9988776655",
+        "emailAddress": "rohit@example.com",
+        "deliveryAddress": "120 Marine Drive, Nariman Point",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400021"
+      },
+      "items": [
+        {
+          "productId": "prod-001",
+          "name": "Veyra Prime Smartphone",
+          "price": 19999,
+          "quantity": 1,
+          "image": "/src/assets/images/prod_smartphone_1790416952525.jpg"
+        }
+      ],
+      "paymentMethod": "Cash on Delivery",
+      "subtotal": 19999,
+      "deliveryFee": 0,
+      "totalAmount": 19999,
+      "status": "Processing",
+      "createdAt": "2026-09-26T10:09:49.627Z",
+      "updatedAt": "2026-09-26T10:09:56.384Z"
+    },
+    {
+      "_id": "ord-1001",
+      "orderNumber": "VYR-1001",
+      "userId": "user-001",
+      "customerName": "Arjun Mehta",
+      "customerEmail": "customer@veyra.store",
+      "customerPhone": "+91 98765 43210",
+      "shippingAddress": {
+        "fullName": "Arjun Mehta",
+        "phoneNumber": "+91 98765 43210",
+        "emailAddress": "customer@veyra.store",
+        "deliveryAddress": "42 Crescent Avenue, Koramangala 4th Block",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560034"
+      },
+      "items": [
+        {
+          "productId": "prod-002",
+          "name": "Veyra Studio Wireless Headphones",
+          "price": 1999,
+          "quantity": 1,
+          "image": "/src/assets/images/prod_headphones_1790416962990.jpg"
+        }
+      ],
+      "paymentMethod": "Cash on Delivery",
+      "subtotal": 1999,
+      "deliveryFee": 0,
+      "totalAmount": 1999,
+      "status": "Delivered",
+      "createdAt": "2026-09-24T10:09:29.167Z",
+      "updatedAt": "2026-09-25T10:09:29.167Z"
+    }
+  ],
+  "carts": [
+    {
+      "_id": "cart-user-1790417383363-81zxf0",
+      "userId": "user-1790417383363-81zxf0",
+      "items": [],
+      "updatedAt": "2026-09-26T10:09:49.627Z"
+    }
+  ]
+}

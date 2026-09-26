@@ -1,0 +1,6 @@
+{
+  "name": "Veyra - Modern Editorial E-Commerce",
+  "description": "Discover quality everyday products at transparent prices with seamless Cash on Delivery ordering and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
