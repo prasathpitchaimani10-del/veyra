@@ -3,7 +3,7 @@ import { ArrowRight, ShoppingBag, ShieldCheck, CheckCircle2, ChevronRight, Truck
 import { Product } from '../types';
 import { api } from '../services/api';
 import { ProductCard } from '../components/ProductCard';
-
+import  heroimage from '../assets/images/hero_storefront_1790416939807.jpg';
 interface HomePageProps {
   onNavigate: (view: string, param?: string) => void;
   onViewProduct: (productId: string) => void;
@@ -105,7 +105,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onViewProduct })
             <div className="lg:col-span-6">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] lg:aspect-[4/3] rounded-xl overflow-hidden border border-neutral-200/90 shadow-md bg-white">
                 <img
-                  src="/src/assets/images/hero_storefront_1790416939807.jpg"
+                  src={herostorefront}
                   alt="Veyra Curated Product Collection"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
